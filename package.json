@@ -1,8 +1,11 @@
 {
   "name": "gtd-warrior",
+  "homepage": "https://redapemusic35.github.io/gtd-warrior",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
+    "predeploy": "expo export -p web",
+    "deploy": "gh-pages --nojekyll -d dist",
     "start": "expo start",
     "start-web": "expo start --web",
     "ios": "expo start --ios",
@@ -59,6 +62,7 @@
     "@types/react": "~19.1.10",
     "eslint": "^9.31.0",
     "eslint-config-expo": "~10.0.0",
+    "gh-pages": "^6.3.0",
     "typescript": "~5.9.2"
   },
   "private": true
