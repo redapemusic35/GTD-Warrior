@@ -4,7 +4,7 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "predeploy": "expo export -p web",
+    "predeploy": "npx expo export -p web",
     "deploy": "gh-pages --nojekyll -d dist",
     "start": "expo start",
     "start-web": "expo start --web",
